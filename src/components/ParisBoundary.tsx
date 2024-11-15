@@ -8,10 +8,10 @@ export const ParisBoundary: React.FC = () => {
       <GeoJSON
         data={parisMetropoleGeoJSON}
         pathOptions={{
-          color: 'red',
-          weight: 1,
+          color: '#3b82f6',
+          weight: 2,
           fillOpacity: 0.1,
-          fillColor: 'red'
+          fillColor: '#3b82f6'
         }}
       />
 
